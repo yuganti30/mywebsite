@@ -1,0 +1,90 @@
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0px;
+    padding: 0;
+    background-color: rgba(224, 185, 122, 0.863);
+    color: brown;
+}
+header {
+    background: linear-gradient(135deg, #4CAF50,#94a419) ;
+    color: azure;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+header h1{
+    margin: 0;
+    font-size: 2.2rem;
+
+}
+.categories {
+    margin :30px auto;
+    max-width: 900px;
+    padding: 0 20px;
+
+}
+.categories h2 {
+    margin-top:0;
+    font-size: 1.8rem;
+    border-bottom: 3px solid #4CAF50;
+    padding-bottom: 5px;
+}
+ul{
+    list-style: disc;
+    padding:0;
+
+}
+li{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    
+
+}
+img{
+    width:100px;
+    height:100px;
+    margin-right:20px;
+    border-radius: 8px;
+    object-fit: cover;
+
+}
+h3{
+    margin: 0;
+    font-size:1.2rem;
+
+}
+p{
+    margin:  5px 0 0;
+    color: #666;
+}
+button:{
+    background-color:#94a419;
+    color:#07508b;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    margin-left: auto;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+}
+button:hover {
+    background-color:#240690;
+
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: aliceblue;
+    margin-top: 40px;
+}
